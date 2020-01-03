@@ -1,10 +1,17 @@
 import React, { Component } from 'react';
+import { TextField } from '@material-ui/core';
 
 class Proxies extends Component {
   render() {
     return (
       <div>
-        <h1>Proxies</h1>
+        <form className='form-centered' noValidate autoComplete='off'>
+          <TextField
+            id='outlined-basic'
+            label='Enter Proxies'
+            variant='outlined'
+          />
+        </form>
       </div>
     );
   }
