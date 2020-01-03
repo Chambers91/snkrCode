@@ -3,11 +3,10 @@ import React from 'react';
 import TabRoutes from './Components/TabRoutes';
 import { Link } from 'react-router-dom';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
-import Table from './Components/Table';
 
 function App() {
   return (
-    <div style={{ height: '175px', position: 'relative' }}>
+    <div style={{ height: '300px', position: 'relative' }}>
       <div className='demo-big-content'>
         <Layout>
           <Header className='header-color' title='SnkrCode' scroll>

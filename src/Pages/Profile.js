@@ -3,8 +3,7 @@ import React from 'react';
 const Profile = () => {
   return (
     <div>
-      <br />
-      <form>
+      <form className='form-centered'>
         <br />
         <label>
           Store:
@@ -42,7 +41,7 @@ const Profile = () => {
         </label>
         <br />
         <input type='submit' value='Submit' />
-      </form>{' '}
+      </form>
     </div>
   );
 };

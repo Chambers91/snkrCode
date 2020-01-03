@@ -28,6 +28,11 @@
   color: #61dafb;
 }
 
+.form-centered {
+  text-align: center;
+  font-size: large;
+}
+
 .header-color {
   background: #870000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
