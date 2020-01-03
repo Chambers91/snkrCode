@@ -30,9 +30,8 @@ function App() {
           </Drawer>
           <Content>
             <div className='page-content' />
-            <TabRoutes />
-            <Table />
           </Content>
+          <TabRoutes />
         </Layout>
       </div>
     </div>

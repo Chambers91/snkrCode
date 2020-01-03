@@ -1,13 +1,50 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class ProfilePage extends Component {
-  render() {
-    return (
-      <div>
-        <h1>Profile</h1>
-      </div>
-    );
-  }
-}
+const Profile = () => {
+  return (
+    <div>
+      <br />
+      <form>
+        <br />
+        <label>
+          Store:
+          <input type='text' name='store' />
+        </label>
+        <br />
+        <label>
+          Product:
+          <input type='text' name='product' />
+        </label>
+        <br />
+        <label>
+          Size:
+          <input type='text' name='size' />
+        </label>
+        <br />
+        <label>
+          Profile:
+          <input type='text' name='profile' />
+        </label>
+        <br />
+        <label>
+          Proxy:
+          <input type='text' name='proxy' />
+        </label>
+        <br />
+        <label>
+          Status:
+          <input type='text' name='status' />
+        </label>
+        <br />
+        <label>
+          Action:
+          <input type='text' name='action' />
+        </label>
+        <br />
+        <input type='submit' value='Submit' />
+      </form>{' '}
+    </div>
+  );
+};
 
-export default ProfilePage;
+export default Profile;
